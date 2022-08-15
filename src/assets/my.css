@@ -1,0 +1,42 @@
+
+:root {
+	font-family: 'Roboto', sans-serif;
+	background-color: rgb(10,10,10);
+	color: white;
+	margin: auto;
+	text-align: center;
+}
+
+button {
+	background-color: black;
+	color: white;
+	box-shadow: 1px 1px 2px gray;
+	border: 0px;
+}
+
+.barcont {
+	background-color: rgb(10,10,10);
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	z-index: 0;
+	width: 300px;
+	margin: -250px 0 0 -150px;
+	height: 505px;
+	display: flex;
+}
+
+.disabled{
+	cursor: not-allowed;
+	pointer-events: none;
+	color: grey;
+}
+
+.bar {
+	background-color: red;
+	width: 10px;
+	margin: 4px;
+	display: inline-block;
+	align-self: flex-end;
+	box-shadow: 1px 0px 2px gray;
+}
